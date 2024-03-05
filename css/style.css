@@ -19,3 +19,7 @@
   display: table;
   clear: both;
 }
+
+p {
+  font-size: large;
+}

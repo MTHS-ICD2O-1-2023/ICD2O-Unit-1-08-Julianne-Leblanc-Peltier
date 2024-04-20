@@ -9,5 +9,5 @@ function myButtonClicked() {
     const numberInput = parseInt(document.getElementById("number-input").value)
   
   // output
-  document.getElementById("number-output").innerHTML = "The number you put: " + numberInput
+  document.getElementById("number-output").innerHTML = " The number you put: " + numberInput
 }

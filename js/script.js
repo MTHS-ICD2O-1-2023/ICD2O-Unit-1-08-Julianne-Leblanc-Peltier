@@ -5,5 +5,9 @@
 // This file contains the JS functions for index.html
 
 function myButtonClicked() {
-  alert("Hello, World!")
+  // input
+    const numberInput = parseInt(document.getElementById("number-input").value)
+  
+  // output
+  document.getElementById("number-output").innerHTML = "The number you put: " + numberInput
 }
